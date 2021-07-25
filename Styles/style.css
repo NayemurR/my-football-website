@@ -1,0 +1,131 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* basic styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* banner styles */
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: #2D25A0;
+    width: 100%;
+    height: 677px;
+    align-items: center;
+}
+.banner{
+    display: flex;
+    padding: 100px
+}
+.banner-title{
+    width: 485px;
+    height: 230px;
+    font-size: 64px;
+    color: white;
+}
+.banner-image img{
+    width: 556.01px;
+    height: 438px;
+    margin-left: 100px;
+}
+.banner-image:hover{
+    transform: scale(1.5) rotate(30deg);
+    transition: transform 2s ease-in-out;
+}
+.click-button{
+    background-color: #E02C6D;
+    width: 168px;
+    height: 44px;
+    padding: 10px 24px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* blog styles */
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.container{
+    margin-top: 70px;
+    padding-left: 180px;
+    padding-right: 210px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 27px;
+    column-gap: 30px;
+}
+.blog .player-image img{
+    width: 300px;
+    height: 256px;
+}
+.blog{
+    width: 330px;
+    padding: 15px;
+    box-shadow: 10px 10px 30px gray;
+}
+.player-info{
+    font-size: 28px;
+    color: #18191F;
+}
+.demo-text{
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    color: #6C6C6C;
+}
+/* highlights styles */
+.highlights{
+    display: flex;
+    margin-top: 165px;
+}
+.highlights-info{
+    width: 469px;
+    height: 309px;
+}
+.highlights-title{
+    font-size: 48px;
+}
+.display-image img{
+    width: 567px;
+    height: 427px;
+    margin-left: 66px;
+}
+/* footer styles */
+footer{
+    margin-top: 158px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.footer-section{
+    width: 483.87px;
+    height: 213px;
+    border: 2px solid;
+
+}
+.logo img{
+    width: 483.87px;
+    height: 110px;
+}
+.social-media-accounts{
+    margin-left: 40%;
+    margin-right: 40%;
+    align-items: center;
+    color: #969BAB;
+}
+.copyright{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
